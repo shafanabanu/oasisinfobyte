@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url(eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NlbHNpdXMtY29udmVydC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color: #e2e0d9;
+  }
+  #convert:hover {
+    background-color: #070702;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: rgb(8, 2, 2);
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #000000;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #a56a6a;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #775959;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #f0e7e7;  
+  }
+  :-ms-input-placeholder {  
+     color: #cc9c9c;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #bb5858;
+  }
